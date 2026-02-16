@@ -1,0 +1,35 @@
+{
+  "name": "fsm",
+  "version": "1.0.0",
+  "description": "fsm",
+  "keywords": [
+    "fsm"
+  ],
+  "homepage": "https://github.com/Nehal721/FOOD-WASTE-MANAGEMENT#readme",
+  "bugs": {
+    "url": "https://github.com/Nehal721/FOOD-WASTE-MANAGEMENT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nehal721/FOOD-WASTE-MANAGEMENT.git"
+  },
+  "license": "ISC",
+  "author": "me",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "node --watch app"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.2.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^9.0.1"
+  }
+}
