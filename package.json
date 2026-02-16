@@ -23,6 +23,7 @@
     "dev": "node --watch app"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.3.1",
     "ejs": "^4.0.1",
     "express": "^5.2.1",
@@ -30,6 +31,7 @@
     "mongoose": "^9.2.1",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^9.0.1"
+    "passport-local-mongoose": "^9.0.1",
+    "pg": "^8.18.0"
   }
 }
