@@ -1,3 +1,6 @@
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 
