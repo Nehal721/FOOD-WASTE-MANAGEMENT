@@ -1,9 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 fastapi
-uvicorn
+uvicorn[standard]
+
 langchain
 langchain-community
 langchain-google-genai
+
 sentence-transformers
 faiss-cpu
+torch==2.2.2+cpu
+
 python-dotenv
 pydantic
