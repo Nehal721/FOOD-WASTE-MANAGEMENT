@@ -4,13 +4,13 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-# Install CPU-only PyTorch FIRST
 RUN pip install --no-cache-dir torch==2.1.2 --index-url https://download.pytorch.org/whl/cpu
-
-# Install rest of dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
+
+# 🔥 Run ingestion inside container
+RUN python ingest.py
 
 EXPOSE 8000
 
